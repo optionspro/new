@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import ONBOARDING1 from "./screens/OnBoarding/onBoarding1"
+import ONBOARDING2 from "./screens/OnBoarding/onBoarding2"
+import ONBOARDING3 from "./screens/OnBoarding/onBoarding3"
+import ONBOARDING4 from "./screens/OnBoarding/onBoarding4"
+import Login from "./screens/auth/login"
+import Register from "./screens/auth/register"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    //<ONBOARDING1 />
+    //<ONBOARDING2 />
+    //<ONBOARDING3 />
+   // <ONBOARDING4 />
+   <Login />
+   //<Register />
+
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
